@@ -29,13 +29,13 @@
   </head>
   <body>
     <main class="container">
-      <section class="img-box">
+      <picture class="img-box">
         <source
           srcset="./images/image-header-desktop.jpg"
-          media="(max-width:640px)"
+          media="(max-width:460px)"
         />
         <img src="./images/image-header-mobile.jpg" alt="" />
-      </section>
+      </picture>
       <section class="text">
         <h1 class="body-title">
           Get <span class="insights">insights</span> that help your business
@@ -45,7 +45,7 @@
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
-        <ul class="statistics">
+        <ul role="list" class="statistics">
           <li>
             <span class="totals">10k+</span>
             <span class="stats-desc">companies</span>
