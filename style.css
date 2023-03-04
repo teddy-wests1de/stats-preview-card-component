@@ -35,6 +35,7 @@ body {
   flex-direction: row-reverse;
   margin: 0 1.2rem;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .img-box {
@@ -64,6 +65,7 @@ img {
 @media (max-width: 764px) {
   .container {
     display: block;
+    border-radius: 10px;
   }
 
   .stats {
@@ -71,10 +73,15 @@ img {
     flex-basis: 200px;
     align-content: center;
   }
+  .body-title {
+    text-align: center;
+  }
 
+  .body-text {
+    text-align: center;
+  }
   img {
     width: 100%;
-    border-radius: 10px 10px 0 0;
   }
 }
 
@@ -102,4 +109,12 @@ img {
   display: block;
   text-transform: uppercase;
   color: hsla(0, 4%, 80%, 0.75);
+}
+.attribution {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
