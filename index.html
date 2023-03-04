@@ -2,50 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
-    <title>Frontend Mentor | Stats preview card component</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style3.css" />
+    <title>Document</title>
   </head>
   <body>
     <main class="container">
-      <picture class="img-box">
-        <source
-          srcset="./images/image-header-desktop.jpg"
-          media="(max-width:460px)"
-        />
-        <img src="./images/image-header-mobile.jpg" alt="" />
-      </picture>
+      <section class="img-box">
+        <picture class="picture-box">
+          <source
+            srcset="./images/image-header-mobile.jpg"
+            media="(max-width:764px)"
+          />
+          <img src="./images/image-header-desktop.jpg" alt="meeting image" />
+        </picture>
+      </section>
       <section class="text">
         <h1 class="body-title">
-          Get <span class="insights">insights</span> that help your business
-          grow.
+          Get <span>insights</span> that help your business grow.
         </h1>
         <p class="body-text">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
-        <ul role="list" class="statistics">
+        <ul role="list" class="stats">
           <li>
             <span class="totals">10k+</span>
             <span class="stats-desc">companies</span>
@@ -61,12 +42,5 @@
         </ul>
       </section>
     </main>
-
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Elrico Landrew</a>.
-    </footer>
   </body>
 </html>
