@@ -83,6 +83,9 @@ img {
   img {
     width: 100%;
   }
+  .stats {
+    text-align: center;
+  }
 }
 
 .text {
